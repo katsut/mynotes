@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "notebooks"
+version = "0.1.0"
+description = ""
+authors = ["Katsuhide Tsuruta <katsuhide.tsuruta@nulab.com>"]
+readme = "README.md"
+packages = [
+    { include = "notebooks", from = "." },
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.0"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.0"
+pytest = "^7.4.4"
+flake8 = "^7.0.0"
+black = "^23.12.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
