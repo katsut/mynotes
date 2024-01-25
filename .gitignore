@@ -1,3 +1,6 @@
+# General
+.env
+
 # Python
 __pycache__/
 .pytest_cache/
@@ -10,5 +13,8 @@ __pycache__/
 .poetry/
 # Visual Studio Code
 .vscode/
-# notebooks
-.ipynb_checkpoints/
+
+# Jupyter Notebook
+*.ipynb_checkpoints/
+*.ipynb_metadata/
+*.html
