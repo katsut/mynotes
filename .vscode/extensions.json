@@ -1,6 +1,5 @@
 {
     "recommendations": [
-        "ms-toolsai.jupyter",
         "ms-python.python",
         "donjayamanne.python-extension-pack",
         "mikestead.dotenv"
